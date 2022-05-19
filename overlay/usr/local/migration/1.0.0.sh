@@ -2,7 +2,7 @@
 
 echo "Running migration for 1.0.0"
 
-./usr/local/migration/install_bundled_mono.sh
+pkg install mono
 
 echo "Update CA certs and resync"
 pkg install -y ca_root_nss
